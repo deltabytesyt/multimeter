@@ -1,0 +1,9 @@
+{
+  "name": "multimeter",
+  "version": "1.0.0",
+  "description": "Multimeter website and functions",
+  "dependencies": {
+    "@octokit/rest": "^18.5.3",
+    "node-fetch": "^2.6.1"
+  }
+}
