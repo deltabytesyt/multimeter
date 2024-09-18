@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to Multimeter - Support Our Mission</title>
+    <meta name="description" content="Support the development of Multimeter, the adult content blocker extension, by making a donation. Help us create a safer internet for everyone.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="contribute.html">Contribute</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <h1>Support Multimeter</h1>
+            <p>Your donation helps us maintain and improve Multimeter, ensuring a safer browsing experience for everyone.</p>
+            
+            <section>
+                <h2>Why Donate?</h2>
+                <ul>
+                    <li>Support ongoing development and updates</li>
+                    <li>Help maintain our servers and infrastructure</li>
+                    <li>Enable us to expand our blocked site database</li>
+                    <li>Keep Multimeter free for all users</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Make a Donation</h2>
+                <form id="donate-form">
+                    <label for="donation-amount">Amount ($):</label>
+                    <input type="number" id="donation-amount" name="donation-amount" required min="1" step="1">
+                    
+                    <label for="donation-method">Payment Method:</label>
+                    <select id="donation-method" name="donation-method" required>
+                        <option value="">Select a method</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="credit-card">Credit Card</option>
+                        <option value="cryptocurrency">Cryptocurrency</option>
+                    </select>
+                    
+                    <button type="submit" class="cta-button">Donate Now</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Multimeter. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
