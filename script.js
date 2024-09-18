@@ -32,7 +32,7 @@ async function handleSubmission(event) {
   const comments = document.getElementById('comments').value;
 
   try {
-    const response = await fetch('/api/submit-website', {
+    const response = await fetch('https://multimeter.netlify.app/contribute', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
