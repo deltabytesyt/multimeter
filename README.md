@@ -17,7 +17,7 @@ Follow these steps to install the **Multimeter** extension manually from source:
 1. **Clone or Download the Repository:**
    - Clone the repository using `git clone`:
      ```bash
-     git clone https://github.com/deltabytesyt/multimeter-extension.git
+     git clone https://github.com/deltabytesyt/multimeter.git
      ```
    - Alternatively, download the ZIP file and extract it.
 
@@ -72,7 +72,7 @@ If you want to contribute to the development of Multimeter, here’s how you can
 1. **Fork the Repository:** Click the “Fork” button at the top of the repository page.
 2. **Clone the Forked Repository:** 
    ```bash
-   git clone https://github.com/deltabytesyt/multimeter-extension.git
+   git clone https://github.com/deltabytesyt/multimeter.git
    ```
 3. **Install Dependencies:** 
    - Multimeter is built using vanilla JavaScript, HTML, and CSS, so no additional dependencies are required.
